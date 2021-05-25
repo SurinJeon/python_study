@@ -10,6 +10,14 @@ list_input_a = [1, 2, 3, 4, 5]
 
 #map() 함수 선언
 output_a = map(power, list_input_a)
-print()
+print("#map() 함수의 실행결과")
+print("map(power, list_input_a): ", output_a)
+print("map(power, list_input_a): ", list(output_a)) #map object를 list로 강제변환한 것
+
+#filter() 함수 선언
+output_b = filter(under_3, list_input_a)
+print("#filter() 함수의 실행결과")
+print("filter(under_3, list_input_a): ", output_b) 
+print("filter(under_3, list_input_a): ", list(output_b)) #filter object를 list로 강제변환한 것
 
 
